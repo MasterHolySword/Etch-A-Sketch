@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightblue;
+    min-height: 100vh;
+}
+
+
+.title{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.most{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.board {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(235, 218, 218);
+    padding: 10px;
+    border-style: solid;
+    text-align: center;
+}
+#size{
+    border-radius: 6px;
+    height: 30px;
+    width: 150px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color:   lightblue;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color:lightblue;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 5px lightblue;
+}
